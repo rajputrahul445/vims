@@ -131,7 +131,6 @@
     }
     .aboutUs .threeSlider {
         width: 100%;
-        padding-bottom: 70px;
     }
     
     .aboutUs .owl-nav {
@@ -324,6 +323,12 @@
     }
     header.mainHeader.fixedHeader {
         top: -73px;
+    }
+    .linkBx{
+        justify-content: center;
+    }
+    .linkBx h3{
+        text-align: center;
     }
 }
 @media only screen and (max-width: 370px){

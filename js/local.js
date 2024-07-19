@@ -129,7 +129,7 @@ $(document).ready(function(){
         autoplay:true,
             autoplayTimeout:5000,
             navText : ["<img src='images/prev.png' />","<img src='images/next.png' />"],
-            dots:false,
+            dots:true,
         responsive:{
             0:{
                 items:1

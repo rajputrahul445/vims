@@ -910,7 +910,23 @@ footer.footer {
     background: #419794;
     padding: 20px;
 }
+.threeSlider .owl-dots {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
 
+.threeSlider .owl-dots button {
+    width: 11px;
+    height: 11px;
+    background: #fff;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.threeSlider .owl-dots button.active {
+    background: #419794;
+}
 .clg1 img {
     height: 480px;
     object-fit: cover;
